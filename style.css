@@ -49,7 +49,7 @@ table {
   display: none;
 }
 
-.car {
+.car, .enemy {
   width: 50px;
   height: 100px;
   background: transparent url('./image/player.png') center / cover no-repeat;
@@ -65,5 +65,14 @@ table {
   position: relative;
   margin: auto;
   background: #222;
+  /* overflow: hidden; */
 
+}
+
+.line {
+  position: absolute;
+  width: 10px;
+  height: 50px;
+  background: #fff;
+  left: 145px;
 }
