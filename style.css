@@ -44,7 +44,6 @@ table {
 }
 
 
-
 .hide {
   display: none;
 }
@@ -54,8 +53,7 @@ table {
   height: 100px;
   background: transparent url('./image/player.png') center / cover no-repeat;
   position: absolute;
-  left: 125px;
-  bottom: 10px;
+
 
 }
 
@@ -65,7 +63,7 @@ table {
   position: relative;
   margin: auto;
   background: #222;
-  /* overflow: hidden; */
+  overflow: hidden;
 
 }
 
@@ -75,4 +73,52 @@ table {
   height: 50px;
   background: #fff;
   left: 145px;
+}
+
+.start {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 1rem 0;
+  text-align: center;
+  z-index: 200;
+  color: beige;
+  font-size: 1.5rem;
+  background: black;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: 700;
+
+}
+
+.score {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: black;
+  z-index: 200;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+  color: skyblue;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+.maxScore{
+  position: absolute;
+  top: 0;
+  left: -200px;
+  width: 100%;
+  background: black;
+  z-index: 200;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+  color: skyblue;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 500; 
 }
